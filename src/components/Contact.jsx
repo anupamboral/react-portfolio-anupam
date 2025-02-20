@@ -30,7 +30,13 @@ const Contact = () => {
           >
             {CONTACT.phoneNo}
           </motion.p>
-          <motion.a href="#" className="border-b border-neutral-200">
+          <motion.a
+            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{ duration: 2 }}
+            href="#"
+            className="border-b border-neutral-200"
+          >
             {CONTACT.email}
           </motion.a>
         </div>

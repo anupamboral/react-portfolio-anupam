@@ -14,3 +14,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 });⁡*/
+//* all animations are built using framer motion, check their site.
+//* command to install framer motion

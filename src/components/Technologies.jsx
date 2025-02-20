@@ -6,11 +6,13 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiWebpack } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { motion } from "motion/react";
+
 ///* below function id for framer motion animation customization
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
-    y: [10, -10],
+    y: 10,
+    rotate: 10,
     transition: {
       duration: duration,
       ease: "linear",
@@ -27,7 +29,7 @@ const Technologies = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-4xl "
       >
         Technologies
       </motion.h1>
@@ -35,7 +37,7 @@ const Technologies = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4"
+        className="flex flex-wrap items-center justify-center gap-4 "
       >
         <motion.div
           variants={iconVariants(2)}

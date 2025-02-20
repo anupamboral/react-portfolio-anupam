@@ -31,7 +31,8 @@ const Hero = () => {
             <motion.span
               variants={container(0.5)}
               initial="hidden"
-              animate="visible"
+              animate={{ x: 0, opacity: 1, rotate: 360 }}
+              transition={{ duration: 1.2 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               Frontend Developer

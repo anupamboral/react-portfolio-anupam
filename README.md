@@ -1,4 +1,10 @@
-# React + Vite
+# Built using React + Vite
+
+## Anupam's Portfolio
+
+**_ I love animated websites, so wanted to build a animated portfolio and here it is _**
+[Live link](https://react-portfolio-anupam.netlify.app/)
+_I used framer motion to add animations._
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
