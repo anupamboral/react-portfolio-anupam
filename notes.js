@@ -15,4 +15,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 });⁡*/
 //* all animations are built using framer motion, check their site.
-//* command to install framer motion
+//* command to install framer motion :- npm install motion .
+//* if we are using react then we have to import it like- import { motion } from "motion/react";
+//* then we have to use the motion word as prefix, like if we want to animate a h1 tag then we to write <motion.h1> while writing the tag name just add some attributes to the element like:- initial, animate,whileInView. These attributes are just like objects, inside these we have to write the animation using x(axis), y(axis) or rotate as we want.
